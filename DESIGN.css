@@ -1,6 +1,6 @@
 body{
-    background-color: rgb(79, 96, 102);
-    color: whitesmoke;
+    background-color: rgb(107, 100, 100);
+    color: rgb(255, 255, 255);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     max-width: 1200px;
     margin: 0 auto;
@@ -17,9 +17,46 @@ header{
     flex-direction:column;
     line-height: 10px;
 }
+li{
+    display: inline-block;
+    margin: 20px;
+}
 
 h1{
     font-weight: 200;
+    display: inline-block;
+}
+
+h2{
+    font-size: 56px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 10px;
+
+}
+
+span{
+    color: darkslateblue;
+}
+
+
+p{
+    line-height: '20px';
+    max-width:500px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+color: bisque;
+} 
+a:hover{
+color: darkgoldenrod;
+transition: 0.3s all;
+}
+
+#botão{
+    border: 2px solid color(srgb rgb(100, 4, 4) rgb(1, 63, 1) rgb(3, 3, 92));
+    padding: 10px;
+    border-radius: 20px ;
 }
 
 main{
@@ -28,10 +65,9 @@ flex-direction: row;
 margin-top: 50px;
 
 }
-h2{
-    font-size: 56px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 10px;
+
+.Especial{
+    color: rgb(255, 123, 0);
 }
 
 .VIDA{
@@ -42,9 +78,8 @@ h2{
     color: rgb(255, 255, 0);
 }
 .Magicpoints{
-    color: blue;
+    color: rgb(0, 0, 148);
 }
 
-span{
-    color: brown;
-}
+
+
